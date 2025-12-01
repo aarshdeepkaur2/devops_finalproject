@@ -1,5 +1,6 @@
 name: CI/CD Pipeline
 
+# It will trigger when the content will be pushed to the main branch.
 on:
   push:
     branches: [ "main" ]
